@@ -306,7 +306,6 @@ footer {
 .fm3 {
     flex: 1;
     color: white;
-    padding: 20px;
 }
 
 .fm1 {
@@ -331,6 +330,20 @@ footer {
 
 footer .widget_title_text{
     color: #FFF;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.footer_menu h1 {
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .footer_copy {
