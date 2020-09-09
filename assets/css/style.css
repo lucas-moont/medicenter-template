@@ -346,10 +346,6 @@ footer .widget_title_text{
     margin-bottom: 20px;
 }
 
-.title_bar_margin {
-    margin-bottom: 30px;
-}
-
 .clinic_text, .adress_contact{
     font-size: 12px;
     color: #909090;
@@ -362,8 +358,9 @@ footer .widget_title_text{
     justify-content: space-between;
 }
 
-.margin_right_footerarea{
+.margin_footerarea{
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .footer_copy {
@@ -380,19 +377,66 @@ footer .widget_title_text{
 }
 
 .social_media a {
-    padding: 9px;
-    display: block;
+    box-sizing: content-box;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #303030;
     margin-right: 3px;
 }
 
-.social_media .padding_correct {
-    padding-bottom: 6px;
+.social_media img {
+    height: 20px;
+    width: 20px;
 }
 
-.social_media img {
-    height: 25px;
-    width: 25px;
-    margin-bottom: 0px;
-    background-color: #707070;
+.social_media .grey_square {
+    background-color: #424242;
+    border-radius: 50%;
+}
+
+.title_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_area .arrows {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.arrows .back, .arrows .forward {
+    padding: 11px;
+    border: 1px solid #353535;
+    margin-right: 4px;
+}
+
+.arrows .back, .arrows .forward, .areaitem .arrow {
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.widget_body_footer .arrow {
+    margin-right: 10px;
+    color: white;
+    line-height: 14px;
+}
+
+.widget_body_footer div {
+    font-size: 12px;
+    color: #909090;
+    display: flex;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+.widget_body_footer .body_text{
+    display: block;
+}
+
+.widget_body_footer .since {
+    font-size: 10px;
+    color: #42b3e5;
 }
