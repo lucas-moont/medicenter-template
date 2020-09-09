@@ -346,6 +346,26 @@ footer .widget_title_text{
     margin-bottom: 20px;
 }
 
+.title_bar_margin {
+    margin-bottom: 30px;
+}
+
+.clinic_text, .adress_contact{
+    font-size: 12px;
+    color: #909090;
+    margin-bottom: 30px;
+}
+
+.adress_contact {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.margin_right_footerarea{
+    margin-right: 15px;
+}
+
 .footer_copy {
     border-top: 1px solid #2c2c2c;
     height: 40px;
@@ -353,4 +373,26 @@ footer .widget_title_text{
     font-size: 12px;
     line-height: 40px;
     padding-top: 3px;
+}
+
+.social_media {
+    display: flex;
+}
+
+.social_media a {
+    padding: 9px;
+    display: block;
+    background-color: #303030;
+    margin-right: 3px;
+}
+
+.social_media .padding_correct {
+    padding-bottom: 6px;
+}
+
+.social_media img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 0px;
+    background-color: #707070;
 }
