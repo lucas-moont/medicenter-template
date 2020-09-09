@@ -363,6 +363,12 @@ footer .widget_title_text{
     margin-bottom: 15px;
 }
 
+.footer_copy a {
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 12px;
+}
+
 .footer_copy {
     border-top: 1px solid #2c2c2c;
     height: 40px;
@@ -370,6 +376,8 @@ footer .widget_title_text{
     font-size: 12px;
     line-height: 40px;
     padding-top: 3px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .social_media {
