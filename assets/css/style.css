@@ -221,10 +221,13 @@ nav a:hover{
     width: 150px;
     background-color: #36a9e1;
     margin-bottom: 10px;
+    margin: 10px;
 }
 
-.square1{
-    margin-right: 30px;
+aside .widget_body {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sublinebody {
